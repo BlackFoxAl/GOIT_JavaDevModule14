@@ -1,4 +1,4 @@
-package module14.newspingbootproject.model;
+package module15.newspingbootproject.model;
 
 import lombok.Data;
 

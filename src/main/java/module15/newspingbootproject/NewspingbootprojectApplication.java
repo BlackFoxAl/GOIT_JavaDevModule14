@@ -1,4 +1,4 @@
-package module14.newspingbootproject;
+package module15.newspingbootproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
