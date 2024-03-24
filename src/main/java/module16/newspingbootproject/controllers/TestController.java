@@ -1,4 +1,4 @@
-package module15.newspingbootproject.controllers;
+package module16.newspingbootproject.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

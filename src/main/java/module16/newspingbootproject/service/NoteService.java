@@ -1,6 +1,6 @@
-package module15.newspingbootproject.service;
+package module16.newspingbootproject.service;
 
-import module15.newspingbootproject.model.Note;
+import module16.newspingbootproject.model.Note;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package module15.newspingbootproject.controllers;
+package module16.newspingbootproject.controllers;
 
-import module15.newspingbootproject.model.Note;
-import module15.newspingbootproject.service.NoteServiceImpl;
+import module16.newspingbootproject.model.Note;
+import module16.newspingbootproject.service.NoteServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;

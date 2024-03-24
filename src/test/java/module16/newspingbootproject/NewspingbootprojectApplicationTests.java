@@ -1,4 +1,4 @@
-package module15.newspingbootproject;
+package module16.newspingbootproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
