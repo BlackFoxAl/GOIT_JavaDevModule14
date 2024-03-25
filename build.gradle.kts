@@ -4,7 +4,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.4"
 }
 
-group = "module14"
+group = "module16"
 version = "0.0.1-SNAPSHOT"
 
 java {
@@ -22,19 +22,18 @@ repositories {
 }
 
 dependencies {
-
-	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	//implementation("org.springframework.boot:spring-boot-starter-security")
+	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+	implementation("org.springframework.boot:spring-boot-starter-validation")
+	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.flywaydb:flyway-core")
+	//implementation("org.thymeleaf.extras:thymeleaf-extras-springsecurity6")
 	compileOnly("org.projectlombok:lombok")
+	runtimeOnly("com.h2database:h2")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
-
-	implementation("org.springframework.boot:spring-boot-starter-web")
-	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
-
-	implementation("org.springframework.boot:spring-boot-starter-validation")
-	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-	runtimeOnly("com.h2database:h2")
-	runtimeOnly("org.flywaydb:flyway-core")
+	testImplementation("org.springframework.security:spring-security-test")
 }
 
 tasks.withType<Test> {
